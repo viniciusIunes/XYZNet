@@ -1,0 +1,446 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+/* =======  Home =======  */
+#botao-menu {
+
+    display: none;
+}
+
+label[for="botao-menu"]{
+ 
+    display: none;
+    
+}
+
+main, h1, footer{
+    
+    background: #DBDBDB;
+}
+
+header {
+    font-weight: 900;
+    background: rgba(13, 74, 77, 0.9);
+    box-shadow: 0px 5px 30px 5px black;
+    position: fixed;
+    z-index: 100;
+   
+}
+
+.cabecalho {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.logo-web {
+
+    width: 19%;
+    padding-left: 15%;
+}
+
+.logo {
+
+    display: none;
+ 
+}
+
+nav {
+    display: inline-block;
+    top: 0;
+    width: 50vw;
+}
+
+nav ul {
+
+    display: flex;
+    width: 50vw;
+    justify-content: space-around; /* proporção entre os espaços  */
+
+}
+
+nav li {
+
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3em 0 0;
+
+}
+
+.cabecalho nav a {
+
+    text-decoration: none;
+    color: #469295;
+    font-size: 1.2em;
+}
+.cabecalho nav a:hover {
+
+    color: #23C6CC;
+    text-decoration: overline #18888C;
+    transition: 0.2s;
+}
+
+.img-home {
+    transition: 0.5s;
+}
+
+.img-home:hover {
+    transform: scale(1.1,1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+/*=======  Sobre =======  */
+
+.banner {
+    box-shadow: 0px 5px 30px 5px black;
+    width: 100vw;
+}
+
+.titulo {
+    background: #DBDBDB;
+    text-align: center;
+    font-size: 2em;  /*Fonte do titulo principal*/
+    font-weight: bold;
+    margin: 0 0  2em;
+    padding: 2em 0 0 0;
+    color: #0D4A4D;
+    text-shadow: 1px 0px 1px black;
+}
+
+a  {
+    text-decoration: none;
+}
+
+.principal div {
+
+    width: 5%;
+    margin: 0 auto;   
+}
+
+.principal p {
+
+    padding: 1em 0 2em 0;
+    margin: 0 auto;
+    width: 60%;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+hr {
+
+    background:  #DBDBDB;
+    padding: 0.1% 0 0 0;
+    background-color: #093133;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/*=======  Planos ======= */
+
+.caixa-planos {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    padding: 5em;
+
+
+}
+
+.fieldset {
+
+    margin: 5vh;
+    color: black;
+    background-color: #18888C;
+    border-radius: 20px;
+    border-color: whitesmoke;
+    transition: 0.5s;
+}
+
+fieldset:hover {
+
+    transform: scale(1.03,1.03);
+}
+
+
+.table-planos{
+
+
+    padding: 0 20em 0 0;
+    text-align: center;
+    font-size: 1em;
+}
+
+.titulo-plano {
+
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    left: 10px;
+
+}
+
+.contrato-servico{
+
+    padding: 10px;
+}
+
+.img-homeFaq {
+
+    width: 4%;
+}
+
+
+
+
+
+
+
+
+/*=======  FAQ ======= */
+
+.titulo-faq1 {
+
+    display: flex;
+    text-align: left;
+    font-size: 1.5em;  /*Fonte do titulo principal*/
+    font-weight: bold;
+    margin: 0 20% 0 15%;
+    padding: 1.5em;
+    color: #0D4A4D;
+    text-shadow: 1px 0px 1px black;
+
+
+}
+.titulo-faq2 {
+
+    display: flex;
+    text-align: left;
+    font-size: 1.5em;  /*Fonte do titulo principal*/
+    font-weight: bold;
+    margin: 0 5% 0 13%;
+    padding: 1.5em;
+    color: #0D4A4D;
+    text-shadow: 1px 0px 1px black;
+
+
+}
+.titulo-faq3 {
+
+    display: flex;
+    text-align: left;
+    font-size: 1.5em;  /*Fonte do titulo principal*/
+    font-weight: bold;
+    margin: 0 20% 0 15%;
+    padding: 1.5em;
+    color: #0D4A4D;
+    text-shadow: 1px 0px 1px black;
+
+}
+p.contrato-servico {
+
+    margin: 0 0 0 6.5%;
+
+}
+
+.section-faq {
+
+    width: 100%;
+    margin: 0 0 20% 0;
+}
+
+.td-faq {
+
+    width: 30%;
+}
+
+
+
+
+
+
+
+
+
+/*=======  Clientes ======= */
+
+.td-cliente {
+    
+    width: 27%;
+}
+
+.td-cliente:hover {
+
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.2,1.2);
+}
+
+.table-clientes {
+
+    padding: 0 0 10% 0;
+}
+
+.img-clientes-oi {
+
+    width: 40%;
+    padding-left: 15%;
+}
+
+.img-clientes-tim {
+
+    width: 70%;
+}
+
+.img-clientes-vivo {
+
+    width: 70%;
+}
+
+.img-clientes-claro {
+
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*=======  Contato ======= */
+
+.main {
+
+    width: 50%;
+    margin: 0 auto;
+}
+
+.formulario {
+
+    margin: 0;
+    padding: 0 0 10em 0;
+}
+
+.formulario label, .formulario p, .formulario-opcoes  {
+
+    font-weight: bold;
+    display: block;
+    font-size: 20px;
+    margin: 0 0 1%;
+    border: none;
+}
+
+.input-padrao{
+
+    font-weight: bold;
+    display: block;
+    margin: 0 0 15px;
+    padding: 8px 25px;
+    width: 100%;
+}
+
+.formulario .botao-de-envio, .formulario .botao-de-envio2 {
+
+    font-weight: bold;
+    width: 25%;
+    padding: 15px 0;
+    background: #0D4A4D;
+    color: white;
+    font-size: 12px;
+    border: none;
+    border-radius: 8px;
+    transition: 0.5s background;
+    cursor: pointer;
+}
+
+.formulario .botao-de-envio:hover {
+
+    background: darkgray;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.formulario .checkbox {
+
+    margin: 20px 0;
+}
+
+.table-contato {
+
+    margin: 0 5em 0 0;
+}
+.icon {
+
+    width: 11%;
+}
+
+.icon:hover{
+    transition: 0.5s;
+    transform: scale(1.3,1.3);
+}
+
+.icones-contato {
+
+    display: inline;
+}
+
+.icon {
+    width: 5%;
+}
+
+
+
+
+
+
+/*=======  Footer ======= */
+
+footer {
+
+    background: #DBDBDB;
+    text-align: center;
+    font-weight: bold;
+    color: #469295;
+    padding: 0 0 1em 0;
+}
+
+.logo-footer {
+
+    width: 5%;
+}
+

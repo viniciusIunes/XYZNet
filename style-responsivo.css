@@ -1,0 +1,387 @@
+
+
+/*=======  Responsivo ======= */
+@media screen and (max-width: 900px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    
+    
+    /* =======  Home =======  */
+
+    label[for="botao-menu"]{
+        
+        display: flex;
+        float: right;
+        align-items: center;
+        justify-content: right;
+ 
+        color:#469295;
+        padding: 2vw 8vw 0 0;
+        width: 1vh;
+        height: 2vh;
+    }
+
+    
+    
+    #botao-menu:checked ~ .cabecalho {
+        
+        display: flex;
+        transition: all 400s;
+ 
+        
+    }
+    
+    #botao-menu:checked ~ #index {
+        
+        display: none;
+        margin-left: 0;
+        
+    }
+
+    #botao-menu:checked ~ header {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .logo-web {
+        
+        display: none;
+    }
+    
+    .logo {
+
+        display: flex;
+        width: 15vw;
+        padding-bottom: 7vw;
+        position: relative;
+    }
+
+    #index {
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 1.5vh;
+    }
+
+
+    .cabecalho {
+    
+        display: none;
+        /* background-color: ;  */
+        width: 100vw;
+        transition: all .4s;
+        position: relative;
+
+    }
+
+    nav {
+
+        width: 100vh;
+    }
+    
+    nav ul  {
+    
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    nav li {
+    
+        display: block;
+        font-size: 0.8em;
+        width: 100vmax;
+
+    }
+    
+    .cabecalho nav a {
+    
+        text-decoration: none;
+        color: #469295;
+        font-size: 1.2em;
+    }
+    .cabecalho nav a:hover {
+    
+        color: #23C6CC;
+        text-decoration: overline #18888C;
+        transition: 0.2s;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=======  Sobre =======  */
+
+.banner {
+    box-shadow: 0px 5px 30px 5px black;
+    width: 100%;
+}
+
+.titulo {
+
+    font-size: 1.2em;  /*Fonte do titulo principal*/
+}
+
+a  {
+    text-decoration: none;
+}
+
+.principal div {
+
+    width: 5%;
+    margin: 0 auto;   
+}
+
+.principal p {
+
+    font-size: 1em;
+
+}
+
+hr {
+
+    background:  #DBDBDB;
+    padding: 0.1% 0 0 0;
+    background-color: #093133;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*=======  Planos ======= */
+
+.caixa-planos {
+
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 50vw;
+    text-align: center;
+
+}
+
+.fieldset {
+    font-size: 0.7em;
+    margin: 20vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*=======  FAQ ======= */
+
+.td-faq {
+
+    display: block;
+    text-align: center;
+    width: 100vw;
+}
+
+.titulo-faq3 {
+
+    padding: 1.2em;
+    font-size: 1.1em;
+
+}
+.titulo-faq2 {
+
+    padding: 0.6em;
+    font-size: 1.1em;
+    margin: 0 5% 0 17%;
+
+}
+.titulo-faq1{
+
+    padding: 1.2em;
+    font-size: 1.1em;
+
+}
+
+
+p.contrato-servico {
+
+    margin: 0 20.5%;
+
+}
+.img-homeFaq {
+
+    width: 10%;
+}
+
+
+
+
+
+
+
+
+
+/*=======  Clientes ======= */
+
+.td-cliente {
+    
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+
+}
+
+.td-cliente:hover {
+
+
+    transition: none;
+    transform: none;
+
+}
+
+.table-clientes {
+
+    padding: 0 0 20% 0;
+}
+
+.img-clientes-oi{
+
+    width: 20%;
+    padding-right: 10%;
+    padding-top: 10%;
+
+}
+
+.img-clientes-tim {
+
+    width: 35%;
+    padding-top: 15%;
+}
+
+.img-clientes-vivo {
+
+    width: 37%;
+    padding-bottom: 15%;
+   
+}
+
+.img-clientes-claro {
+
+    width: 31%;
+}
+
+
+
+
+
+
+
+/*=======  Contato ======= */
+
+.main {
+
+    width: 60%;
+    margin: 0 5%;
+}
+
+.input-padrao{
+
+    width: 100%;
+    padding: 2% 45% 2.8% 5.4%;
+    margin: 0 0 10%;
+    font-size: 0.7em;
+    
+}
+
+.formulario {
+
+    padding: 0 0 5em 0;
+}
+
+.formulario label, .formulario-opcoes {
+
+    font-size: 0.8em;
+}
+
+.formulario p {
+
+    margin-left: 0;
+    text-align: left;
+    font-size: 15px;
+}
+
+.icon {
+
+    width: 15%;
+    padding: 0 1em 0 0;
+}
+
+
+.formulario .botao-de-envio {
+
+    width: 50vw;
+    padding: 10px 0;
+    font-size: 12px;
+    margin: 0 0 10% 0;
+    white-space: pre;
+}
+
+.formulario .botao-de-envio2 {
+
+    width: 50vw;
+    padding: 10px 0;
+    font-size: 12px;
+
+}
+
+
+
+
+
+
+
+/*=======  Footer ======= */
+
+footer {
+
+    font-size: 0.6em;
+}
+
+.logo-footer {
+
+    width: 15%;
+}
+
+}
